@@ -2,11 +2,15 @@ body{
   background: #FF7979;
     background-image:url(./images/bg-intro-desktop.png);
     background-size: 100%;
-    width: 100%; 
+    width: 99%; 
     height: 100vh; 
     display:flex;
      justify-content: center; 
      align-items: center;
+     margin: 0;
+     box-sizing: 0;
+     border: 0;
+
     
 }
 
@@ -28,8 +32,7 @@ body{
 }
 .sec{
     flex: 1;
-     margin-top: 150px;
-margin-bottom: 27px;    
+    margin-bottom: 27px;    
     width: 528px;
     height: 60px;
     flex-shrink: 0;
@@ -54,7 +57,6 @@ margin-bottom: 27px;
     line-height: 55px;
     letter-spacing: -0.521px;
     gap: 5px;
-    margin-top: 180px;
     
     
 }
