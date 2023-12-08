@@ -1,0 +1,127 @@
+body{
+    background-image:url(./images/bg-intro-desktop.png);
+    background-size: 100%;
+    background: #FF7979;
+}
+
+.a{
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0.268px;
+}
+.ptext{
+  color: #FFF;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+}
+.sec{
+    flex: 1;
+    margin-top: 150px;
+    margin-left: 713px;
+    width: 528px;
+    height: 60px;
+    flex-shrink: 0;
+    box-shadow: 0px 8px 0px 0px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    background-color: #5E54A4;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+
+}   
+.text1{
+    color: #FFF;
+    width: 525px;
+    height: 131px;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 55px;
+    letter-spacing: -0.521px;
+    margin-top: -235px;
+    gap: 5px;
+}
+ 
+.text3{
+    margin-top: 15px;
+    color: #BAB7D4;
+    text-align: center;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 600;
+
+    
+   
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  
+}
+form {
+  border: 2px solid grey;
+  width: 540px;
+  width: 474px;
+  border-radius: 10px;
+  background-color: #FFF;
+  padding: 24px;
+  margin-bottom: 165px;
+}
+input {
+  display: block;
+  width: 100%;
+  width: 460px;
+  height: 56px;
+  box-sizing: border-box;
+  padding: 30px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc; 
+  border-radius: 5px; 
+  width: 460px;
+  height: 56px;
+  left: 40px;
+  margin-top: 10px;
+  color: #3D3B48;
+
+  
+}
+label {
+  color: grey;
+}
+.inputs_container {
+  margin-top: 18px;
+}
+
+.button_container {
+  display: flex;
+  justify-content: center;
+
+  
+}
+
+
+.button_container > button {
+  width: 460px;
+  height: 56px;
+  color: #FFF;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: 1px;
+  background-color: #38CC8B;
+  border: none;
+  border-radius: 5px;
+  margin-top: 15px;
+}
